@@ -17,7 +17,7 @@ function platzom(str){
     }
     return translation
   }
-  
+
   if (str == reverse(str)) {
     return minMay(str);
   }

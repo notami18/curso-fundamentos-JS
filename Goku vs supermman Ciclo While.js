@@ -22,12 +22,12 @@ while(ambosSiguenVivos()){
 	if (golpeGoku > golpeSuperman) {
 		// Ataca Goku
 		console.log(`Goku ataca a Superman con un solo golpe de ${golpeGoku}`);
-		vidaSuperman -= golpeGoku; 
+		vidaSuperman -= golpeGoku;
 		console.log(`Superman queda en ${vidaSuperman} vida.`);
 	}else{
 		// Ataca Superman
 		console.log(`Superman ataca a Goku con un solo golpe de ${golpeSuperman}`);
-		vidaGoku -= golpeSuperman; 
+		vidaGoku -= golpeSuperman;
 		console.log(`Goku queda en ${vidaGoku} puntos de vida.`);
 	}
 }
